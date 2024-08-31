@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tasks-->
+        <!--Photo scavenger hunt-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="TaskListViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="TaskListViewController" customModule="project1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="91" width="390" height="753"/>
                                 <inset key="separatorInset" minX="48" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" rowHeight="60" id="WLA-WM-GNM" customClass="TaskCell" customModule="lab_task_squirrel" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TaskCell" rowHeight="60" id="WLA-WM-GNM" customClass="TaskCell" customModule="project1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="390" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WLA-WM-GNM" id="BXc-Af-m5v">
@@ -38,7 +38,7 @@
                                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                             </preferredSymbolConfiguration>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to the store and grab Hot Cheetos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY4-bn-3Uz">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prototype for photo scavenger hunt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rY4-bn-3Uz">
                                                             <rect key="frame" x="28" y="0.0" width="322" height="20.333333333333332"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                             <nil key="textColor"/>
@@ -81,7 +81,7 @@
                             <constraint firstItem="Q4w-ie-GaD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tqj-PY-kbK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Tasks" id="BEp-bB-g30">
+                    <navigationItem key="navigationItem" title="Photo scavenger hunt" id="BEp-bB-g30">
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="mUF-lW-14o">
                             <connections>
                                 <segue destination="Wks-lt-YIn" kind="presentation" identifier="ComposeSegue" id="HQw-jc-QaX"/>
@@ -100,7 +100,7 @@
         <!--Task Detail View Controller-->
         <scene sceneID="X0K-wo-jU3">
             <objects>
-                <viewController id="iXV-Xg-iXn" customClass="TaskDetailViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iXV-Xg-iXn" customClass="TaskDetailViewController" customModule="project1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c5O-Gy-SMd">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -124,19 +124,19 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="RJW-I6-Md9">
-                                <rect key="frame" x="24" y="159.33333333333337" width="342" height="463"/>
+                                <rect key="frame" x="24" y="159.33333333333337" width="342" height="441"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3wZ-hG-DrB">
-                                        <rect key="frame" x="0.0" y="0.0" width="342" height="104.66666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="342" height="82.666666666666671"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go to the store and grab Hot Cheetos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZS-zZ-Yxg">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prototype title for the photo scavenger hunt" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ZS-zZ-Yxg">
                                                 <rect key="frame" x="0.0" y="0.0" width="342" height="54.333333333333336"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Make sure to get the Xtra Hot variety in either the large or medium large bag." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XK8-9k-CuP">
-                                                <rect key="frame" x="0.0" y="62.333333333333314" width="342" height="42.333333333333343"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prototype added description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XK8-9k-CuP">
+                                                <rect key="frame" x="0.0" y="62.333333333333321" width="342" height="20.333333333333336"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -144,7 +144,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-HK-1Xq">
-                                        <rect key="frame" x="0.0" y="128.66666666666666" width="342" height="334.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="106.66666666666666" width="342" height="334.33333333333337"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U18-CX-28F">
                                                 <rect key="frame" x="0.0" y="0.0" width="342" height="34.333333333333336"/>
@@ -227,7 +227,7 @@
         <!--New Task-->
         <scene sceneID="Ioe-a1-6Ta">
             <objects>
-                <viewController id="fZK-XV-ZSw" customClass="TaskComposeViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fZK-XV-ZSw" customClass="TaskComposeViewController" customModule="project1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qrs-jQ-4tq">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="834"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -299,7 +299,7 @@
         <!--Photo View Controller-->
         <scene sceneID="DBc-yF-cYR">
             <objects>
-                <viewController id="JYl-x1-1XB" customClass="PhotoViewController" customModule="lab_task_squirrel" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JYl-x1-1XB" customClass="PhotoViewController" customModule="project1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5yb-Kk-CDj">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

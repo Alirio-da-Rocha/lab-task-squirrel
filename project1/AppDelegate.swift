@@ -1,6 +1,5 @@
 //
 //  AppDelegate.swift
-//  lab-task-squirrel
 //
 //  Created by Charlie Hieger on 11/15/22.
 //
